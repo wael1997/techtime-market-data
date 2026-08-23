@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "جودا_20000",
+    "cat": "بطاريات متنقلة",
+    "name": "بطارية جودا 20000mAh",
+    "query": "جودا 20000",
+    "competitorsCount": 0,
+    "competitorsList": "",
+    "minPrice": null,
+    "avgPrice": null,
+    "trendInterest": 0,
+    "updated": "2026-08-23"
+  },
+  {
+    "id": "جودا_هاربو",
+    "cat": "منصات ومحطات شحن",
+    "name": "منصة جودا هاربو لشحن البطاريات",
+    "query": "جودا هاربو",
+    "competitorsCount": 1,
+    "competitorsList": "amazon_sa",
+    "minPrice": 111.41,
+    "avgPrice": 111.4,
+    "trendInterest": 0,
+    "updated": "2026-08-23"
+  },
+  {
+    "id": "جودا_فولت_لينك",
+    "cat": "توصيلات كهربائية",
+    "name": "توصيلة جودا فولت لينك",
+    "query": "جودا فولت لينك",
+    "competitorsCount": 0,
+    "competitorsList": "",
+    "minPrice": null,
+    "avgPrice": null,
+    "trendInterest": 0,
+    "updated": "2026-08-23"
+  },
+  {
+    "id": "جودا_AirVolt",
+    "cat": "منتجات السيارة",
+    "name": "مضخة هواء جودا AirVolt",
+    "query": "جودا AirVolt",
+    "competitorsCount": 1,
+    "competitorsList": "amazon_sa",
+    "minPrice": 149.0,
+    "avgPrice": 149.0,
+    "trendInterest": 0,
+    "updated": "2026-08-23"
+  },
+  {
+    "id": "راف_باور_باور_بانك",
+    "cat": "بطاريات متنقلة",
+    "name": "بطارية راف باور",
+    "query": "راف باور باور بانك",
+    "competitorsCount": 1,
+    "competitorsList": "amazon_sa",
+    "minPrice": 88.0,
+    "avgPrice": 88.0,
+    "trendInterest": 3,
+    "updated": "2026-08-23"
+  }
+]
