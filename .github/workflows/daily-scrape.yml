@@ -4,14 +4,15 @@ on:
   schedule:
     # 3:00 صباحًا بتوقيت UTC = 6:00 صباحًا بتوقيت السعودية
     - cron: "0 3 * * *"
-  workflow_dispatch: {}   # يسمح بتشغيل يدوي فوري من تبويب Actions بالمستودع
+  workflow_dispatch: {}
 
 permissions:
-  contents: write   # مطلوب عشان الخطوة الأخيرة تقدر تحفظ (Commit) النتائج
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: تنزيل المستودع
         uses: actions/checkout@v4
@@ -23,6 +24,9 @@ jobs:
 
       - name: تثبيت المكتبات
         run: pip install -r scripts/requirements.txt
+
+      - name: تثبيت متصفح Playwright
+        run: playwright install --with-deps chromium
 
       - name: تشغيل سكربت الزحف
         run: python scripts/scraper.py
