@@ -114,16 +114,16 @@ def scrape_requests(competitor: dict, query: str):
 def scrape_playwright(page, competitor: dict, query: str):
     url = competitor["search_url"].format(q=quote(query))
     try:
-        page.goto(url, timeout=30000, wait_until="domcontentloaded")
+        page.goto(url, timeout=12000, wait_until="domcontentloaded")
     except Exception as e:
         print(f"  ⚠ فشل فتح الصفحة عند {competitor['name']}: {e}")
         return None
 
     wait_sel = competitor.get("wait_selector", "body")
     try:
-        page.wait_for_selector(wait_sel, timeout=10000)
+        page.wait_for_selector(wait_sel, timeout=6000)
     except Exception:
-        page.wait_for_timeout(2500)
+        page.wait_for_timeout(1200)
 
     try:
         first_card = page.locator(wait_sel).first
@@ -158,12 +158,12 @@ def get_trend_interest(keywords, geo="SA"):
                     success = True
                 break
             except Exception as e:
-                wait = random.uniform(8, 15) * (attempt + 1)
+                wait = random.uniform(5, 8) * (attempt + 1)
                 print(f"  ⚠ Trends محاولة {attempt+1} فشلت لـ '{kw}' ({e}) — إعادة محاولة بعد {wait:.0f} ثانية")
                 time.sleep(wait)
         if not success:
             results[kw] = None
-        time.sleep(random.uniform(5, 9))
+        time.sleep(random.uniform(2, 4))
     return results
 
 
@@ -193,7 +193,7 @@ def main():
                 else:
                     r = scrape_playwright(page, comp, w["query"])
 
-                time.sleep(random.uniform(2, 4))
+                time.sleep(random.uniform(1, 2))
 
                 if r and r.get("found") and r.get("price"):
                     found_at.append(comp["name"])
