@@ -4,11 +4,12 @@
     "cat": "بطاريات متنقلة",
     "name": "بطارية جودا 20000mAh",
     "query": "جودا 20000",
-    "competitorsCount": 0,
-    "competitorsList": "",
-    "minPrice": null,
-    "avgPrice": null,
-    "trendInterest": 0,
+    "competitorsCount": 1,
+    "competitorsList": "amazon_sa",
+    "minPrice": 94.97,
+    "avgPrice": 95.0,
+    "trendInterest": null,
+    "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
     "updated": "2026-08-23"
   },
   {
@@ -16,11 +17,12 @@
     "cat": "منصات ومحطات شحن",
     "name": "منصة جودا هاربو لشحن البطاريات",
     "query": "جودا هاربو",
-    "competitorsCount": 1,
-    "competitorsList": "amazon_sa",
-    "minPrice": 111.41,
-    "avgPrice": 111.4,
-    "trendInterest": 0,
+    "competitorsCount": 0,
+    "competitorsList": "",
+    "minPrice": null,
+    "avgPrice": null,
+    "trendInterest": null,
+    "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
     "updated": "2026-08-23"
   },
   {
@@ -32,7 +34,8 @@
     "competitorsList": "",
     "minPrice": null,
     "avgPrice": null,
-    "trendInterest": 0,
+    "trendInterest": null,
+    "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
     "updated": "2026-08-23"
   },
   {
@@ -40,11 +43,12 @@
     "cat": "منتجات السيارة",
     "name": "مضخة هواء جودا AirVolt",
     "query": "جودا AirVolt",
-    "competitorsCount": 1,
-    "competitorsList": "amazon_sa",
-    "minPrice": 149.0,
-    "avgPrice": 149.0,
-    "trendInterest": 0,
+    "competitorsCount": 0,
+    "competitorsList": "",
+    "minPrice": null,
+    "avgPrice": null,
+    "trendInterest": null,
+    "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
     "updated": "2026-08-23"
   },
   {
@@ -56,7 +60,8 @@
     "competitorsList": "amazon_sa",
     "minPrice": 88.0,
     "avgPrice": 88.0,
-    "trendInterest": 3,
+    "trendInterest": null,
+    "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
     "updated": "2026-08-23"
   }
 ]
