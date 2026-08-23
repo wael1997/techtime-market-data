@@ -74,7 +74,13 @@ OUTPUT_JSON = Path(__file__).resolve().parent.parent / "data" / "products.json"
 OUTPUT_XLSX = Path(__file__).resolve().parent.parent / "data" / "تقرير_المنافسين.xlsx"
 OUTPUT_RAW_JSON = Path(__file__).resolve().parent.parent / "data" / "raw_scraped_products.json"
 
-PRICE_PATTERN = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:ر\.?\s*س|SAR|ريال)", re.IGNORECASE)
+# نمط 1: رقم متبوع برمز عملة نصي (ر.س / SAR / ريال) أو الرمز اليونيكودي الجديد
+# المعتمد رسميًا للريال السعودي (⃁ U+20C1، صدر بيونيكود 17 سبتمبر 2025)
+PRICE_PATTERN_CURRENCY = re.compile(r"(\d{1,4}(?:[.,]\d{1,2})?)\s*(?:ر\.?\s*س|SAR|ريال|\u20C1)", re.IGNORECASE)
+# نمط 2: احتياطي — أرقام بصيغة سعر قياسية (XX.XX) بدون رمز عملة نصي، لأن أغلب
+# متاجر سلة تعرض رمز العملة كأيقونة صورة/خط مخصص لا يظهر كنص عند القراءة،
+# فيبقى بالنص الظاهر رقم عشري وحيد بمكانه (مثال: '99.00')
+PRICE_PATTERN_STANDALONE = re.compile(r"^\s*(\d{1,4}\.\d{2})\s*$")
 ARABIC_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
 
@@ -82,38 +88,80 @@ def normalize_digits(text: str) -> str:
     return text.translate(ARABIC_DIGITS)
 
 
+NOISE_LINES = {
+    "إضافة للسلة", "عرض الكل", "أضف إلى السلة", "اضافة للسلة", "أضف للسلة",
+    "غير متوفر", "نفذت الكمية", "نبهني", "المفضلة", "أضف للمفضلة",
+}
+
+
+def _line_price(line: str):
+    """يحاول يستخرج سعر من سطر وحيد، جربًا للنمطين (مع رمز عملة أو رقم قياسي وحيد)."""
+    m = PRICE_PATTERN_CURRENCY.search(line)
+    if m:
+        try:
+            return float(m.group(1).replace(",", "."))
+        except ValueError:
+            pass
+    m2 = PRICE_PATTERN_STANDALONE.match(line)
+    if m2:
+        try:
+            return float(m2.group(1))
+        except ValueError:
+            pass
+    return None
+
+
+def _looks_like_title(line: str) -> bool:
+    if len(line) < 8:
+        return False
+    if line in NOISE_LINES:
+        return False
+    if _line_price(line) is not None:
+        return False
+    # نتجنب أسطر أرقام/رموز بحتة (مثل "٪10" أو "2026")
+    letters = sum(c.isalpha() for c in line)
+    return letters >= 4
+
+
 def extract_products_from_text(body_text: str):
     """
     يفكك النص الكامل الظاهر بصفحة (بعد التصيير الكامل بالمتصفح) إلى قائمة
-    منتجات مرشّحة: كل سطر فيه نمط سعر (رقم + ر.س/ريال/SAR) يُعتبر 'نهاية بطاقة
-    منتج'، والأسطر القليلة اللي قبله تُعتبر اسم المنتج المرشّح.
+    منتجات مرشّحة. اسم المنتج على متاجر سلة قد يظهر قبل أو بعد سطر السعر
+    حسب ترتيب القراءة بالثيم، فنفحص الاتجاهين ونختار أقرب سطر نصي معقول.
     """
     text = normalize_digits(body_text)
     lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
     products = []
+
     for i, line in enumerate(lines):
-        m = PRICE_PATTERN.search(line)
-        if not m:
-            continue
-        try:
-            price = float(m.group(1).replace(",", "."))
-        except ValueError:
+        price = _line_price(line)
+        if price is None:
             continue
         if price < 5 or price > 5000:  # استبعاد أرقام غير منطقية كسعر منتج
             continue
-        # نجمع حتى 3 أسطر سابقة كمرشح لاسم المنتج (نتجنب أسطر قصيرة جدًا زي "٪" أو "0")
-        title_parts = []
+
+        title = None
+        # أولاً نجرب الأسطر اللي قبل السعر (الترتيب الأكثر شيوعًا: اسم ثم سعر)
         for back in range(1, 4):
             idx = i - back
             if idx < 0:
                 break
-            candidate = lines[idx]
-            if len(candidate) >= 8 and not PRICE_PATTERN.search(candidate):
-                title_parts.insert(0, candidate)
-            if len(title_parts) >= 1:
+            if _looks_like_title(lines[idx]):
+                title = lines[idx]
                 break
-        if title_parts:
-            products.append({"title": title_parts[-1], "price": price})
+        # لو ما لقينا، نجرب الأسطر اللي بعد السعر (بعض الثيمات تعكس الترتيب)
+        if not title:
+            for fwd in range(1, 4):
+                idx = i + fwd
+                if idx >= len(lines):
+                    break
+                if _looks_like_title(lines[idx]):
+                    title = lines[idx]
+                    break
+
+        if title:
+            products.append({"title": title, "price": price})
+
     return products
 
 
