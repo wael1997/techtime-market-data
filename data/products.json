@@ -9,7 +9,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-09"
+    "updated": "2026-09-10"
   },
   {
     "id": "joda_harbo",
@@ -21,7 +21,7 @@
     "avgPrice": 179.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-09"
+    "updated": "2026-09-10"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-09"
+    "updated": "2026-09-10"
   },
   {
     "id": "joda_airvolt",
@@ -45,7 +45,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-09"
+    "updated": "2026-09-10"
   },
   {
     "id": "ravpower_pb",
@@ -57,7 +57,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-09"
+    "updated": "2026-09-10"
   },
   {
     "id": "joda_voltpad",
@@ -69,7 +69,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-09"
+    "updated": "2026-09-10"
   },
   {
     "id": "joda_cable240",
@@ -81,18 +81,18 @@
     "avgPrice": 89.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-09"
+    "updated": "2026-09-10"
   },
   {
     "id": "joda_car_charger",
     "cat": "شواحن سيارة",
     "name": "شاحن سيارة جودا",
-    "competitorsCount": 2,
-    "competitorsList": "aletawiksa, amazon_sa",
+    "competitorsCount": 1,
+    "competitorsList": "aletawiksa",
     "minPrice": 9.96,
-    "avgPrice": 54.55,
+    "avgPrice": 39.48,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-09"
+    "updated": "2026-09-10"
   }
 ]
