@@ -9,7 +9,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-14"
+    "updated": "2026-09-15"
   },
   {
     "id": "joda_harbo",
@@ -21,7 +21,7 @@
     "avgPrice": 179.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-14"
+    "updated": "2026-09-15"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-14"
+    "updated": "2026-09-15"
   },
   {
     "id": "joda_airvolt",
@@ -45,7 +45,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-14"
+    "updated": "2026-09-15"
   },
   {
     "id": "ravpower_pb",
@@ -57,7 +57,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-14"
+    "updated": "2026-09-15"
   },
   {
     "id": "joda_voltpad",
@@ -69,30 +69,30 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-14"
+    "updated": "2026-09-15"
   },
   {
     "id": "joda_cable240",
     "cat": "كيابل شحن",
     "name": "كيبل جودا 240 واط",
-    "competitorsCount": 2,
-    "competitorsList": "aletawiksa, iblackstores",
+    "competitorsCount": 3,
+    "competitorsList": "aletawiksa, iblackstores, amazon_sa",
     "minPrice": 89.0,
-    "avgPrice": 194.01,
+    "avgPrice": 553.02,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-14"
+    "updated": "2026-09-15"
   },
   {
     "id": "joda_car_charger",
     "cat": "شواحن سيارة",
     "name": "شاحن سيارة جودا",
-    "competitorsCount": 2,
-    "competitorsList": "aletawiksa, iblackstores",
+    "competitorsCount": 3,
+    "competitorsList": "aletawiksa, iblackstores, amazon_sa",
     "minPrice": 9.96,
-    "avgPrice": 56.75,
+    "avgPrice": 59.09,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-14"
+    "updated": "2026-09-15"
   }
 ]
