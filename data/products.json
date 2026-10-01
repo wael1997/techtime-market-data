@@ -9,7 +9,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   },
   {
     "id": "joda_harbo",
@@ -21,7 +21,7 @@
     "avgPrice": 179.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   },
   {
     "id": "joda_airvolt",
@@ -41,23 +41,23 @@
     "name": "مضخة هواء جودا AirVolt / مضخة بدون بطارية",
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
-    "minPrice": 10.18,
-    "avgPrice": 44.17,
+    "minPrice": 38.0,
+    "avgPrice": 159.66,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   },
   {
     "id": "ravpower_pb",
     "cat": "بطاريات متنقلة",
     "name": "بطارية راف باور",
-    "competitorsCount": 1,
-    "competitorsList": "amazon_sa",
-    "minPrice": 150.0,
-    "avgPrice": 150.0,
+    "competitorsCount": 0,
+    "competitorsList": "",
+    "minPrice": null,
+    "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   },
   {
     "id": "joda_voltpad",
@@ -69,7 +69,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   },
   {
     "id": "joda_cable240",
@@ -78,10 +78,10 @@
     "competitorsCount": 2,
     "competitorsList": "aletawiksa, amazon_sa",
     "minPrice": 89.0,
-    "avgPrice": 295.0,
+    "avgPrice": 474.81,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   },
   {
     "id": "joda_car_charger",
@@ -89,10 +89,10 @@
     "name": "شاحن سيارة جودا",
     "competitorsCount": 2,
     "competitorsList": "aletawiksa, amazon_sa",
-    "minPrice": 20.78,
-    "avgPrice": 68.84,
+    "minPrice": 29.0,
+    "avgPrice": 64.17,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-09-30"
+    "updated": "2026-10-01"
   }
 ]
