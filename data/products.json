@@ -3,25 +3,25 @@
     "id": "joda_20000",
     "cat": "بطاريات متنقلة",
     "name": "بطارية جودا 20000mAh",
-    "competitorsCount": 1,
-    "competitorsList": "iblackstores",
-    "minPrice": 149.01,
-    "avgPrice": 149.01,
+    "competitorsCount": 2,
+    "competitorsList": "ppowerstore, iblackstores",
+    "minPrice": 109.0,
+    "avgPrice": 135.67,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   {
     "id": "joda_harbo",
     "cat": "منصات ومحطات شحن",
     "name": "منصة جودا هاربو لشحن البطاريات",
-    "competitorsCount": 1,
-    "competitorsList": "al3bor-telecom",
-    "minPrice": 179.0,
-    "avgPrice": 179.0,
+    "competitorsCount": 3,
+    "competitorsList": "ppowerstore, al3bor-telecom, amazon_sa",
+    "minPrice": 35.0,
+    "avgPrice": 221.67,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   {
     "id": "joda_voltlink",
@@ -33,31 +33,31 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   {
     "id": "joda_airvolt",
     "cat": "منتجات السيارة",
     "name": "مضخة هواء جودا AirVolt / مضخة بدون بطارية",
-    "competitorsCount": 1,
-    "competitorsList": "amazon_sa",
+    "competitorsCount": 2,
+    "competitorsList": "ppowerstore, amazon_sa",
     "minPrice": 13.1,
-    "avgPrice": 41.28,
+    "avgPrice": 47.8,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   {
     "id": "ravpower_pb",
     "cat": "بطاريات متنقلة",
     "name": "بطارية راف باور",
-    "competitorsCount": 1,
-    "competitorsList": "amazon_sa",
-    "minPrice": 150.0,
-    "avgPrice": 150.0,
+    "competitorsCount": 0,
+    "competitorsList": "",
+    "minPrice": null,
+    "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   {
     "id": "joda_voltpad",
@@ -69,30 +69,30 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   {
     "id": "joda_cable240",
     "cat": "كيابل شحن",
     "name": "كيبل جودا 240 واط",
-    "competitorsCount": 3,
-    "competitorsList": "aletawiksa, iblackstores, amazon_sa",
-    "minPrice": 89.0,
-    "avgPrice": 442.73,
+    "competitorsCount": 4,
+    "competitorsList": "ppowerstore, aletawiksa, iblackstores, amazon_sa",
+    "minPrice": 49.0,
+    "avgPrice": 406.09,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   {
     "id": "joda_car_charger",
     "cat": "شواحن سيارة",
     "name": "شاحن سيارة جودا",
     "competitorsCount": 2,
-    "competitorsList": "aletawiksa, amazon_sa",
-    "minPrice": 29.0,
-    "avgPrice": 84.31,
+    "competitorsList": "ppowerstore, aletawiksa",
+    "minPrice": 34.0,
+    "avgPrice": 47.33,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   }
 ]
