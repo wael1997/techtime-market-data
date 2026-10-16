@@ -9,19 +9,19 @@
     "avgPrice": 149.01,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   {
     "id": "joda_harbo",
     "cat": "منصات ومحطات شحن",
     "name": "منصة جودا هاربو لشحن البطاريات",
-    "competitorsCount": 2,
-    "competitorsList": "al3bor-telecom, amazon_sa",
-    "minPrice": 35.0,
-    "avgPrice": 202.12,
+    "competitorsCount": 1,
+    "competitorsList": "al3bor-telecom",
+    "minPrice": 179.0,
+    "avgPrice": 179.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   {
     "id": "joda_airvolt",
@@ -45,7 +45,7 @@
     "avgPrice": 48.33,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   {
     "id": "ravpower_pb",
@@ -57,7 +57,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   {
     "id": "joda_voltpad",
@@ -69,7 +69,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   {
     "id": "joda_cable240",
@@ -81,18 +81,18 @@
     "avgPrice": 194.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   {
     "id": "joda_car_charger",
     "cat": "شواحن سيارة",
     "name": "شاحن سيارة جودا",
-    "competitorsCount": 1,
-    "competitorsList": "aletawiksa",
+    "competitorsCount": 2,
+    "competitorsList": "aletawiksa, wjhtektelecome",
     "minPrice": 69.0,
-    "avgPrice": 69.0,
+    "avgPrice": 106.38,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   }
 ]
