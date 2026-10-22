@@ -9,7 +9,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "id": "joda_harbo",
@@ -21,7 +21,7 @@
     "avgPrice": 179.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "id": "joda_airvolt",
@@ -42,22 +42,22 @@
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
     "minPrice": 11.0,
-    "avgPrice": 35.8,
+    "avgPrice": 24.48,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "id": "ravpower_pb",
     "cat": "بطاريات متنقلة",
     "name": "بطارية راف باور",
-    "competitorsCount": 1,
-    "competitorsList": "amazon_sa",
-    "minPrice": 160.0,
-    "avgPrice": 160.0,
+    "competitorsCount": 0,
+    "competitorsList": "",
+    "minPrice": null,
+    "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "id": "joda_voltpad",
@@ -69,7 +69,7 @@
     "avgPrice": 100.75,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "id": "joda_cable240",
@@ -81,18 +81,18 @@
     "avgPrice": 194.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   {
     "id": "joda_car_charger",
     "cat": "شواحن سيارة",
     "name": "شاحن سيارة جودا",
-    "competitorsCount": 3,
-    "competitorsList": "aletawiksa, wjhtektelecome, amazon_sa",
-    "minPrice": 28.0,
-    "avgPrice": 83.2,
+    "competitorsCount": 2,
+    "competitorsList": "aletawiksa, wjhtektelecome",
+    "minPrice": 69.0,
+    "avgPrice": 106.38,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   }
 ]
