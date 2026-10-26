@@ -9,7 +9,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   {
     "id": "joda_harbo",
@@ -17,11 +17,11 @@
     "name": "منصة جودا هاربو لشحن البطاريات",
     "competitorsCount": 2,
     "competitorsList": "al3bor-telecom, amazon_sa",
-    "minPrice": 67.24,
-    "avgPrice": 219.68,
+    "minPrice": 94.6,
+    "avgPrice": 253.67,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   {
     "id": "joda_airvolt",
@@ -41,23 +41,23 @@
     "name": "مضخة هواء جودا AirVolt / مضخة بدون بطارية",
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
-    "minPrice": 11.0,
-    "avgPrice": 32.22,
+    "minPrice": 38.0,
+    "avgPrice": 38.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   {
     "id": "ravpower_pb",
     "cat": "بطاريات متنقلة",
     "name": "بطارية راف باور",
-    "competitorsCount": 1,
-    "competitorsList": "amazon_sa",
-    "minPrice": 150.0,
-    "avgPrice": 150.0,
+    "competitorsCount": 0,
+    "competitorsList": "",
+    "minPrice": null,
+    "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   {
     "id": "joda_voltpad",
@@ -69,7 +69,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   {
     "id": "joda_cable240",
@@ -81,7 +81,7 @@
     "avgPrice": 194.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   {
     "id": "joda_car_charger",
@@ -90,9 +90,9 @@
     "competitorsCount": 3,
     "competitorsList": "aletawiksa, wjhtektelecome, amazon_sa",
     "minPrice": 29.0,
-    "avgPrice": 81.92,
+    "avgPrice": 70.82,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   }
 ]
