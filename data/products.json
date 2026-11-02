@@ -9,7 +9,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   {
     "id": "joda_harbo",
@@ -21,7 +21,7 @@
     "avgPrice": 179.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   {
     "id": "joda_airvolt",
@@ -41,11 +41,11 @@
     "name": "مضخة هواء جودا AirVolt / مضخة بدون بطارية",
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
-    "minPrice": 13.1,
-    "avgPrice": 60.77,
+    "minPrice": 11.0,
+    "avgPrice": 53.42,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   {
     "id": "ravpower_pb",
@@ -53,23 +53,23 @@
     "name": "بطارية راف باور",
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
-    "minPrice": 89.0,
-    "avgPrice": 119.5,
+    "minPrice": 74.0,
+    "avgPrice": 112.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   {
     "id": "joda_voltpad",
     "cat": "شواحن جدارية",
     "name": "شاحن جودا فولت باد / VoltPad",
-    "competitorsCount": 0,
-    "competitorsList": "",
-    "minPrice": null,
-    "avgPrice": null,
+    "competitorsCount": 1,
+    "competitorsList": "amazon_sa",
+    "minPrice": 100.75,
+    "avgPrice": 100.75,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   {
     "id": "joda_cable240",
@@ -78,10 +78,10 @@
     "competitorsCount": 3,
     "competitorsList": "aletawiksa, iblackstores, amazon_sa",
     "minPrice": 89.0,
-    "avgPrice": 434.8,
+    "avgPrice": 405.63,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   {
     "id": "joda_car_charger",
@@ -89,10 +89,10 @@
     "name": "شاحن سيارة جودا",
     "competitorsCount": 3,
     "competitorsList": "aletawiksa, wjhtektelecome, amazon_sa",
-    "minPrice": 22.36,
-    "avgPrice": 79.32,
+    "minPrice": 20.68,
+    "avgPrice": 84.01,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   }
 ]
