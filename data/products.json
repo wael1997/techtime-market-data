@@ -9,19 +9,19 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
   {
     "id": "joda_harbo",
     "cat": "منصات ومحطات شحن",
     "name": "منصة جودا هاربو لشحن البطاريات",
-    "competitorsCount": 2,
-    "competitorsList": "al3bor-telecom, amazon_sa",
-    "minPrice": 79.38,
-    "avgPrice": 240.81,
+    "competitorsCount": 1,
+    "competitorsList": "al3bor-telecom",
+    "minPrice": 179.0,
+    "avgPrice": 179.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
   {
     "id": "joda_airvolt",
@@ -42,10 +42,10 @@
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
     "minPrice": 11.0,
-    "avgPrice": 54.34,
+    "avgPrice": 53.46,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
   {
     "id": "ravpower_pb",
@@ -53,11 +53,11 @@
     "name": "بطارية راف باور",
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
-    "minPrice": 74.0,
-    "avgPrice": 121.5,
+    "minPrice": 89.0,
+    "avgPrice": 129.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
   {
     "id": "joda_voltpad",
@@ -69,7 +69,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
   {
     "id": "joda_cable240",
@@ -78,10 +78,10 @@
     "competitorsCount": 3,
     "competitorsList": "aletawiksa, iblackstores, amazon_sa",
     "minPrice": 89.0,
-    "avgPrice": 396.52,
+    "avgPrice": 375.71,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
   {
     "id": "joda_car_charger",
@@ -89,10 +89,10 @@
     "name": "شاحن سيارة جودا",
     "competitorsCount": 4,
     "competitorsList": "aletawiksa, al3bor-telecom, wjhtektelecome, amazon_sa",
-    "minPrice": 20.68,
-    "avgPrice": 81.74,
+    "minPrice": 69.0,
+    "avgPrice": 115.19,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   }
 ]
