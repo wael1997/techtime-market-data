@@ -9,7 +9,7 @@
     "avgPrice": 149.01,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   {
     "id": "joda_harbo",
@@ -21,7 +21,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   {
     "id": "joda_voltlink",
@@ -33,7 +33,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   {
     "id": "joda_airvolt",
@@ -41,11 +41,11 @@
     "name": "مضخة هواء جودا AirVolt / مضخة بدون بطارية",
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
-    "minPrice": 11.24,
-    "avgPrice": 28.47,
+    "minPrice": 38.0,
+    "avgPrice": 38.0,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   {
     "id": "ravpower_pb",
@@ -54,10 +54,10 @@
     "competitorsCount": 1,
     "competitorsList": "amazon_sa",
     "minPrice": 89.0,
-    "avgPrice": 129.0,
+    "avgPrice": 119.5,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   {
     "id": "joda_voltpad",
@@ -69,7 +69,7 @@
     "avgPrice": null,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   {
     "id": "joda_cable240",
@@ -78,10 +78,10 @@
     "competitorsCount": 3,
     "competitorsList": "aletawiksa, iblackstores, amazon_sa",
     "minPrice": 89.0,
-    "avgPrice": 393.74,
+    "avgPrice": 384.62,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   {
     "id": "joda_car_charger",
@@ -90,9 +90,9 @@
     "competitorsCount": 4,
     "competitorsList": "aletawiksa, al3bor-telecom, wjhtektelecome, amazon_sa",
     "minPrice": 69.0,
-    "avgPrice": 115.19,
+    "avgPrice": 110.44,
     "trendInterest": null,
     "trendStatus": "تعذر الجلب (حظر مؤقت من جوجل، طبيعي أحيانًا)",
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   }
 ]
